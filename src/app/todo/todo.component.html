@@ -9,8 +9,8 @@
 </div>
 
 <ul id="myUL">
-    <li [class.checked]="task.isDone" (click)="check(task.id)"  *ngFor="let task of tasks" >
+    <li [class.checked]="task.isDone" (click)="check(task.id, i)"  *ngFor="let task of tasks; index as i" >
       {{task.title}}
-      <span class="close" (click)="delete(task.id)">X</span>
+      <span class="close" (click)="delete(task.id, i)">X</span>
     </li>
 </ul>
