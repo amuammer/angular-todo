@@ -2,7 +2,7 @@
 
 # How to run <br/>
 1. ng serve -o <br/>
-2. json serve src/data/db.json 
+2. json-server src/data/db.json 
 </br>
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.4.
 
